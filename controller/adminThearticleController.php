@@ -16,6 +16,9 @@ if (isset($_GET['add'])) {
 
 
 
+    //$users = theuserSelectAll($db);
+    $sections = theSectionSelectAllNav($db);
+    require "../view/adminView/adminInsertView.php";
     /**
      * Modification - crUd
      */
